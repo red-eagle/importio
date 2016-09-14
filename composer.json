@@ -1,0 +1,31 @@
+{
+  "name": "red-eagle/importio",
+  "type": "library",
+  "keywords": [
+    "import.io",
+    "grabber"
+  ],
+  "description": "ImportIo API integration library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ihor Orel",
+      "email": "rosso.aquila@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "guzzlehttp/guzzle": "6.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "RedEagle\\ImportIO\\": "src/",
+      "RedEagle\\ImportIO\\Exception\\": "src/Exception",
+      "RedEagle\\ImportIO\\Traits\\": "src/Traits"
+    }
+  }
+}
